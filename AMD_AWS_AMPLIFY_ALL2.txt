@@ -1,0 +1,317 @@
+Microsoft Windows [Version 10.0.22000.978]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022>npm install
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022/package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\buddy\AppData\Local\npm-cache\_logs\2022-09-28T06_59_58_691Z-debug-0.log
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022>gatsby new gatsby-amplify-auth https://github.com/dabit3/gatsby-auth-starter-aws-amplify
+'gatsby' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022>npx create-react-app zeal-app
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) Y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1394 packages in 1m
+
+210 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 56 packages in 15s
+
+210 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1450 packages in 9s
+
+210 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created zeal-app at D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd zeal-app
+  npm start
+
+Happy hacking!
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022>cd..
+
+D:\ZL_Work\NEW_REACT_28_09>cd REACT_ZEAL2022
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022>cd zeal-app
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>npm start
+
+> zeal-app@0.1.0 start
+> react-scripts start
+
+(node:10280) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10280) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view zeal-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.29.233:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Terminate batch job (Y/N)? Y
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the project ZDashboard
+The following configuration will be applied:
+
+Project information
+| Name: ZDashboard
+| Environment: dev
+| Default editor: Visual Studio Code
+| App type: javascript
+| Javascript framework: react
+| Source Directory Path: src
+| Distribution Directory Path: build
+| Build Command: npm.cmd run-script build
+| Start Command: npm.cmd run-script start
+
+? Initialize the project with the above configuration? No
+? Enter a name for the environment dev
+? Choose your default editor: IntelliJ IDEA
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react
+? Source Directory Path:  src
+? Distribution Directory Path: build
+? Build Command:  npm.cmd run-script build
+? Start Command: npm.cmd run-script start
+Using default provider  awscloudformation
+? Select the authentication method you want to use: AWS access keys
+? accessKeyId:
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the project ZDashboard
+The following configuration will be applied:
+
+Project information
+| Name: ZDashboard
+| Environment: dev
+| Default editor: Visual Studio Code
+| App type: javascript
+| Javascript framework: react
+| Source Directory Path: src
+| Distribution Directory Path: build
+| Build Command: npm.cmd run-script build
+| Start Command: npm.cmd run-script start
+
+? Initialize the project with the above configuration? No
+? Enter a name for the environment dev
+? Choose your default editor: IntelliJ IDEA
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react
+? Source Directory Path:  src
+? Distribution Directory Path: build
+? Build Command:  npm.cmd run-script build
+? Start Command: npm.cmd run-script start
+Using default provider  awscloudformation
+
+? Select the authentication method you want to use: AWS access keys
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+? region:  us-east-1
+Adding backend environment dev to AWS Amplify app: dlaprd05md25
+
+Deployment completed.
+Deployed root stack ZDashboard [ ======================================== ] 4/4
+        amplify-zdashboard-dev-124739  AWS::CloudFormation::Stack     CREATE_COMPLETE                Wed Sep 28 2022
+        DeploymentBucket               AWS::S3::Bucket                CREATE_COMPLETE                Wed Sep 28 2022
+        UnauthRole                     AWS::IAM::Role                 CREATE_COMPLETE                Wed Sep 28 2022
+        AuthRole                       AWS::IAM::Role                 CREATE_COMPLETE                Wed Sep 28 2022
+
+√ Help improve Amplify CLI by sharing non sensitive configurations on failures (y/N) · no
+Deployment bucket fetched.
+√ Initialized provider successfully.
+✅ Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify push" to deploy everything
+
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>amplify add api
+? Select from one of the below mentioned services: REST
+√ Provide a friendly name for your resource to be used as a label for this category in the project: · Registration
+√ Provide a path (e.g., /book/{isbn}): · /registration/{registerUserName}
+Only one option for [Choose a Lambda source]. Selecting [Create a new Lambda function].
+? Provide an AWS Lambda function name: regitrationProcess
+? Choose the runtime that you want to use: NodeJS
+? Choose the function template that you want to use: CRUD function for DynamoDB (Integration with API Gateway)
+? Choose a DynamoDB data source option Create a new DynamoDB table
+
+Welcome to the NoSQL DynamoDB database wizard
+This wizard asks you a series of questions to help determine how to set up your NoSQL database table.
+
+√ Provide a friendly name · userdetail
+√ Provide table name · userdetail
+
+You can now add columns to the table.
+
+√ What would you like to name this column · Y
+√ Choose the data type · string
+√ Would you like to add another column? (Y/n) · no
+
+Before you create the database, you must specify how items in your table are uniquely organized. You do this by specifying a primary key. The primary key uniquely identifies each item in the table so that no two items can have the same key. This can be an individual column, or a combination that includes a primary key and a sort key.
+
+To learn more about primary keys, see:
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.PrimaryKey
+
+Only one option for [Choose partition key for the table]. Selecting [Y].
+√ Do you want to add a sort key to your table? (Y/n) · yes
+🛑 You must add additional keys in order to select a sort key.
+
+You can optionally add global secondary indexes for this table. These are useful when you run queries defined in a different column than the primary key.
+To learn more about indexes, see:
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.SecondaryIndexes
+
+√ Do you want to add global secondary indexes to your table? (Y/n) · no
+√ Do you want to add a Lambda Trigger for your Table? (y/N) · yes
+√ Select from the following options · Choose an existing function from the project
+🛑 No functions were found in the project. Use 'amplify add function' to add a new function.
+Successfully added DynamoDb table locally
+
+Available advanced settings:
+- Resource access permissions
+- Scheduled recurring invocation
+- Lambda layers configuration
+- Environment variables configuration
+- Secret values configuration
+
+? Do you want to configure advanced settings? No
+? Do you want to edit the local lambda function now? No
+Successfully added resource regitrationProcess locally.
+
+Next steps:
+Check out sample function code generated in <project-dir>/amplify/backend/function/regitrationProcess/src
+"amplify function build" builds all of your functions currently in the project
+"amplify mock function <functionName>" runs your function locally
+To access AWS resources outside of this Amplify app, edit the D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app\amplify\backend\function\regitrationProcess\custom-policies.json
+"amplify push" builds all of your local backend resources and provisions them in the cloud
+"amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
+✅ Succesfully added the Lambda function locally
+√ Restrict API access? (Y/n) · no
+√ Do you want to add another path? (y/N) · no
+✅ Successfully added resource Registration locally
+
+✅ Some next steps:
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>lwAM/Rr1bVWETZiy8sH/hJS2h3KDUc3o5z2TJ7LA
+'lwAM' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>lwAM/Rr1bVWETZiy8sH/hJS2h3KDUc3o5z2TJ7LA
+'lwAM' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>lwAM/Rr1bVWETZiy8sH/hJS2h3KDUc3o5z2TJ7LA
+'lwAM' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>amplify push
+- Fetching updates to backend environment: dev from the cloud.- Building resource stor√ Successfully pulled backend environment dev from the cloud.
+
+    Current Environment: dev
+
+┌──────────┬────────────────────┬───────────┬───────────────────┐
+│ Category │ Resource name      │ Operation │ Provider plugin   │
+├──────────┼────────────────────┼───────────┼───────────────────┤
+│ Storage  │ userdetail         │ Create    │ awscloudformation │
+├──────────┼────────────────────┼───────────┼───────────────────┤
+│ Function │ regitrationProcess │ Create    │ awscloudformation │
+├──────────┼────────────────────┼───────────┼───────────────────┤
+│ Api      │ Registration       │ Create    │ awscloudformation │
+└──────────┴────────────────────┴───────────┴───────────────────┘
+? Are you sure you want to continue? Yes
+
+Deployment completed.
+Deployed root stack ZDashboard [ ======================================== ]
+        amplify-zdashboard-dev-124739  AWS::CloudFormation::Stack     UPDATE_COMPLE
+        storageuserdetail              AWS::CloudFormation::Stack     CREATE_COMPLE
+        functionregitrationProcess     AWS::CloudFormation::Stack     CREATE_COMPLE
+        apiRegistration                AWS::CloudFormation::Stack     CREATE_COMPLE
+Deployed storage userdetail [ ======================================== ] 1/1
+        DynamoDBTable                  AWS::DynamoDB::Table           CREATE_COMPLE
+Deployed function regitrationProcess [ =====================================
+        LambdaExecutionRole            AWS::IAM::Role                 CREATE_COMPLE
+        LambdaFunction                 AWS::Lambda::Function          CREATE_COMPLE
+        lambdaexecutionpolicy          AWS::IAM::Policy               CREATE_COMPLE
+Deployed api Registration [ ======================================== ] 5/5
+        Registration                   AWS::ApiGateway::RestApi       CREATE_COMPLE
+        RegistrationDefault5XXResponse AWS::ApiGateway::GatewayRespo… CREATE_COMPLE
+        RegistrationDefault4XXResponse AWS::ApiGateway::GatewayRespo… CREATE_COMPLE
+        functionregitrationProcessPer… AWS::Lambda::Permission        CREATE_COMPLE
+        DeploymentAPIGWRegistrationc0… AWS::ApiGateway::Deployment    CREATE_COMPLE
+
+- Uploading files.- Uploading files.- Uploading files.- Uploading files.- Uploading fi
+REST API endpoint: https://n9y7xb3882.execute-api.us-east-1.amazonaws.com/dev
+
+
+D:\ZL_Work\NEW_REACT_28_09\REACT_ZEAL2022\zeal-app>Jitendra2611Jitendra2611
